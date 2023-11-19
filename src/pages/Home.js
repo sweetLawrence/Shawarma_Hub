@@ -1,7 +1,6 @@
 import React from 'react'
 import '../styles/home.css';
 import BG from '../assets/homebg.webp'
-import Fries from '../assets/fries.jpg'
 const Home = () => {
     return (
         <div className='home'>
