@@ -1,0 +1,10 @@
+.button .std-btn{
+    text-align: left;
+    outline: none;
+    color: white;
+    background: #d4af7b;
+    padding: .5em .9em;
+    font-size: 1.3em;
+    border: none;
+    margin-top: 1em;
+ }

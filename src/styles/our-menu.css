@@ -1,0 +1,19 @@
+.our-menu {
+    margin: 1em;
+}
+.our-menu .one {
+  font-family: cursive;
+  font-size: 2.4em;
+  color: #d4af7b;
+}
+.our-menu .lxc {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 1.8em;
+}
+.our-menu .menuz{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}

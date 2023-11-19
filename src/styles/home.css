@@ -1,0 +1,98 @@
+.home {
+  /* background: black; */
+  height: 100vh;
+  /* background-image: url('../assets/homebg.jpg'); */
+}
+.bg {
+  position: absolute;
+  background-size: contain;
+}
+.bg img {
+  width: 100%;
+  position: relative;
+  top: -180px;
+  filter: brightness(0.5);
+}
+.advert-text {
+  width: 100%;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+.advert-text .top {
+  font-weight: 400;
+  font-family: cursive;
+  /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+  font-size: 3.4em;
+  color: #d4af7b;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+.advert-text .bottom {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 3em;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+}
+.food-image {
+  display: flex;
+  margin: auto;
+  margin-top: 3em;
+  /* background: red; */
+  /* justify-content: space-around; */
+}
+.food-image .section {
+  margin: 0 auto;
+  background: red;
+  width: 120px;
+  height: 120px;
+  border: 1px solid white;
+  border-radius: 50%;
+  background-size: contain;
+  padding: 0.5em;
+}
+.x {
+  height: 110px;
+}
+.food-image .section img {
+  height: auto;
+  width: 100%;
+  display: block;
+  border-radius: 50%;
+  /* border-radius: 50%; */
+}
+.food-image .section:first-child {
+  background-image: url("../assets/fries.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.food-image .section:nth-child(2) {
+  background-image: url("../assets/shawarma.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.food-image .section:nth-child(3) {
+  background-image: url("../assets/chipsmasala.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.food-image .section:nth-child(4) {
+    background-image: url("../assets/tikka.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+ .food-image .section p{
+/* background: red; */
+width: 100%;
+}

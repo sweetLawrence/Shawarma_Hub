@@ -1,0 +1,30 @@
+/* Footer.css */
+
+.restaurant-footer {
+    background-color: #030303;
+    color: #fff;
+    padding: 60px 0;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-section {
+    flex: 1;
+  }
+  
+  .footer-section h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .footer-bottom {
+    background-color: #222;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
