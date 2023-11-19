@@ -50,7 +50,7 @@
 }
 .food-image .section {
   margin: 0 auto;
-  background: red;
+  /* background: red; */
   width: 120px;
   height: 120px;
   border: 1px solid white;
