@@ -13,11 +13,11 @@ const Home = () => {
                 <div className="food-image">
                     <div className="section">
                         <div className="x"></div>
-                        <p>crispy fries</p>
+                        <p>Crispy Fries</p>
                     </div>
                     <div className="section">
                         <div className="x"></div>
-                        <p>shawarma</p>
+                        <p>Shawarma</p>
                     </div>
                     <div className="section">
                         <div className="x"></div>
