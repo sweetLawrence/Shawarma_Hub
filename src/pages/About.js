@@ -26,7 +26,7 @@ const About = () => {
                         Monday-Sunday <span className='bold'>2:00 pm-9:00pm</span>
                     </div>
                     <div className="phone">
-                    +254 7195 028 91
+                        +254 1120 797 85
                     </div>
                 </div>
             </div>

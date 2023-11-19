@@ -27,7 +27,7 @@ const Navbar = () => {
     return (
         <div className='navbar' style={navbarStyles}>
             <div className="top">
-                <p className="phone">+254 719502891</p>
+                <p className="phone">+254 112079785</p>
                 <p className="email">shawarmahub@gmail.com</p>
                 <p className="openhrs">Open Hours:Monday-Sunday 2:00 pm-9:00pm</p>
             </div>
