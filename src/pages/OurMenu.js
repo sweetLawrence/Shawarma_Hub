@@ -7,13 +7,11 @@ const OurMenu = () => {
         <div className='our-menu'>
             <h2><span className='one'>Specialties</span><br /><span className='lxc'>Our Menu</span></h2>
             <div className="menuz">
-                <SpecificMenu />
-                <SpecificMenu />
-                <SpecificMenu />   
-                <SpecificMenu />   
+                <SpecificMenu price='Ksh.100' food_name="Chips Masala" description="Taste our delicious Chips Masala"/>
+                <SpecificMenu price='Ksh.150' food_name="Shawarma" description="Taste our delicious Shawarma "/> 
             </div>
             <div className="more">
-                <Button />
+                <Button content="More" />
             </div>
         </div>
     )

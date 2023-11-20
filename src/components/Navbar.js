@@ -26,11 +26,11 @@ const Navbar = () => {
       };
     return (
         <div className='navbar' style={navbarStyles}>
-            <div className="top">
+            {/* <div className="top">
                 <p className="phone">+254 112079785</p>
                 <p className="email">shawarmahub@gmail.com</p>
                 <p className="openhrs">Open Hours:Monday-Sunday 2:00 pm-9:00pm</p>
-            </div>
+            </div> */}
             <div className="bottom"  >
                 <div className="left">Shawarma Hub</div>
                 <div className="right">
