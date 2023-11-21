@@ -31,7 +31,7 @@ const Navbar = () => {
                 <p className="email">shawarmahub@gmail.com</p>
                 <p className="openhrs">Open Hours:Monday-Sunday 2:00 pm-9:00pm</p>
             </div> */}
-            <div className="bottom"  >
+            <div className="bottom">
                 <div className="left">Shawarma Hub</div>
                 <div className="right">
                     <ul>

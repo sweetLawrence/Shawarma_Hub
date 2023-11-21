@@ -11,7 +11,7 @@
   width: 100%;
   position: relative;
   top: -180px;
-  filter: brightness(0.5);
+  filter: brightness(0.3);
 }
 .advert-text {
   width: 100%;
@@ -51,15 +51,15 @@
 .food-image .section {
   margin: 0 auto;
   /* background: red; */
-  width: 120px;
-  height: 120px;
-  border: 1px solid white;
+  width: 150px;
+  height: 150px;
+  border: 1px solid #d4af7b;
   border-radius: 50%;
   background-size: contain;
   padding: 0.5em;
 }
 .x {
-  height: 110px;
+  height: 150px;
 }
 .food-image .section img {
   height: auto;
@@ -87,12 +87,12 @@
   background-position: center;
 }
 .food-image .section:nth-child(4) {
-    background-image: url("../assets/tikka.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-  }
- .food-image .section p{
-/* background: red; */
-width: 100%;
+  background-image: url("../assets/tikka.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.food-image .section p {
+  /* background: red; */
+  width: 100%;
 }
