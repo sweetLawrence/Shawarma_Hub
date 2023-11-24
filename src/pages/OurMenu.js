@@ -8,7 +8,9 @@ const OurMenu = () => {
             <h2><span className='one'>Specialties</span><br /><span className='lxc'>Our Menu</span></h2>
             <div className="menuz">
                 <SpecificMenu price='Ksh.100' food_name="Chips Masala" description="Taste our delicious Chips Masala"/>
-                <SpecificMenu price='Ksh.150' food_name="Shawarma" description="Taste our delicious Shawarma"/> 
+                <SpecificMenu price='Ksh.150' food_name="Shawarma" description="Taste our delicious Shawarma Taste our delicious Shawarma"/>
+                <SpecificMenu price='Ksh.80' food_name="Fries" description="Taste our delicious Fries"/>
+                <SpecificMenu price='Ksh.150' food_name="Shawarma" description="Taste our delicious Shawarma Taste our delicious Shawarma"/>  
             </div>
             <div className="more">
                 <Button content="More" />

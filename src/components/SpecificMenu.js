@@ -14,7 +14,7 @@ const SpecificMenu = ({ price, food_name, description }) => {
                         {/* <h3>Chips Masala</h3> */}
                         <h3>{food_name}</h3>
                         {/* <p>Ksh.150</p> */}
-                        <p>{price}</p>
+                        <p className='price'>{price}</p>
                     </div>
                     {/* <p className="content">Chipo Masala plus soda</p> */}
                     <p className='content'>{description}</p>

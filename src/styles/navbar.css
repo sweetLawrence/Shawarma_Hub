@@ -34,6 +34,11 @@
 .navbar .bottom .left{
     font-weight: 700;
     font-size: 1.2em;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.navbar .bottom .left:hover{
+    color: #d4af7b;
 }
 .navbar .bottom .right{
     
@@ -42,5 +47,11 @@
 .navbar .bottom .right .row{
  margin-right: 2.5em;
  margin-left: 2.5em;
- 
+ cursor: pointer;
+ transition: all .5s;
+}
+.navbar .bottom .right .row:hover{
+    scale: 1.1;
+    color: #d4af7b;
+    font-weight: 600;
 }

@@ -1,14 +1,16 @@
 .specific-menu {
   /* background: red; */
   margin: .4em;
-  padding: 1.5em;
+  /* padding: 1.5em; */
+  scale: .95;
 }
 .specific-menu .container {
   display: flex;
   border: .1px solid rgb(213, 210, 210);
-  min-width: 200px;
-  width: 500px;
-  border-radius: 10px;
+  width: 600px;
+  max-width: 600px;
+  height: 250px;
+  border-radius: 5px;
 }
 .container .left {
     width: 50%;
@@ -18,28 +20,41 @@
   height: 100%;
   border: 1px solid white;
   border-radius: 13px;
+  object-fit: cover;
   /* padding: .5em; */
+  /* scale: .95; */
 }
 .container .right {
-   
+   /* background: red; */
+   width: 50%;
+   display: grid;
+   place-content: center;
 }
 .container .right .top {
   display: flex;
   justify-content: space-around;
   margin: .6em;
   /* background: red; */
+  height: 50px;
+  padding: .5em;
 }
 .container .right .top h3{
    font-weight: 650;
    padding-right: .4em;
-   font-size: 1.5em;
+   font-size: 1.2em;
    width: 70%;
+   font-size: 1.4em;
+   position: absolute;
+   right: 5px;
+   /* background: green; */
 }  
 .container .right .top p{
     font-weight: 650;
     padding-right: .4em;
     color: #d4af7b;
-    margin-left: .5em;
+    position: absolute;
+    right: 10px;
+    /* margin-left: 1.em; */
  } 
  
  .std-btn{
@@ -54,4 +69,13 @@
  }
  .container .right .content{
     color: rgb(169, 165, 165);
+    color: black;
+    font-size: 1.2em;
+    font-weight: 400;
+    /* background: green; */
+    /* width: 80%; */
+    height: 90px;
+    margin: 0 auto;
+    text-align: start;
+    padding: .4em;
  }

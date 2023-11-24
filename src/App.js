@@ -6,6 +6,7 @@ import About from './pages/About';
 import SpecificMenu from './components/SpecificMenu';
 import OurMenu from './pages/OurMenu';
 import Footer from './components/Footer';
+import ClientRemarks from './pages/ClientRemarks';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Home />
       <About />
       <OurMenu />
+      <ClientRemarks />
       <Footer />
       {/* <SpecificMenu /> */}
      
