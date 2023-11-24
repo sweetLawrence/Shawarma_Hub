@@ -8,7 +8,7 @@ const ClientRemarks = () => {
         <div className='client'>
             <h2><span className='one'>testimonials</span> <br /> <span className='lxc'>Client Remarks</span></h2>
             <div className="bottom">
-                <Marquee pauseOnHover speed="50">
+                <Marquee pauseOnHover speed="30">
                     <Testimonial />
                     <Testimonial />
                     <Testimonial />
