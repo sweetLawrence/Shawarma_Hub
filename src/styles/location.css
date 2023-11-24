@@ -1,0 +1,21 @@
+.map{
+    /* background: red; */
+    width: 90%;
+    aspect-ratio: 3/1.2;
+    margin: 1.5em auto;
+    border: .1px solid silver;
+
+}
+.map iframe{
+    width: 100%;
+}
+.location .one{
+    font-family: cursive;
+    font-size: 2.5em;
+    color: #d4af7b;
+}
+.location .lxc{
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 1.8em;
+}
