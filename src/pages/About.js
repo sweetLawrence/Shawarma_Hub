@@ -17,11 +17,11 @@ const About = () => {
                     <h2><span className='one'>about</span> <br /> <span className='lxc'>Shawarma Hub</span></h2>
 
                     <p className="cont">
-                        A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+                        Welcome to Shawarma Hub, where you can get delicious fast food whenever you want it. Enter a world of culinary delight where our skillfully prepared shawarmas and wide range of menu items promise a tasty adventure that will satisfy every craving. Shawarma Hub is the place to go if you're looking for a quick and delicious meal that is also committed to quality and speed.
                     </p>
-                    <p className="cont">
+                    {/* <p className="cont">
                         A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
-                    </p>
+                    </p> */}
                     <div className="time">
                         Monday-Sunday <span className='bold'>2:00 pm-9:00pm</span>
                     </div>

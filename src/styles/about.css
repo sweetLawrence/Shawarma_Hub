@@ -52,7 +52,7 @@
 .about .cont {
   font-size: 1.2em; 
   color: rgb(169, 165, 165);
-  text-align: center;
+  text-align: start;
 }
 .about .time {
   font-size: 1.4em;
