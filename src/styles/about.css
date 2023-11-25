@@ -7,6 +7,7 @@
 .about .upper {
   display: flex;
 }
+
 .image-section {
   width: 50%;
   display: flex;
@@ -29,8 +30,9 @@
 .image-section .ab-img img {
   width: 100%;
   height: 100%;
-  border: 1px solid white;
-  border-radius: 13px;
+  border: 1px solid green;
+  /* border-radius: 13px; */
+
 }
 .about .content {
   /* background: red; */
@@ -69,4 +71,30 @@
 }
 .more{
   margin-bottom: 3em;
+}
+
+
+@media screen and (max-width:480px) {
+  .about .upper {
+    flex-direction: column;
+  }
+  .image-section {
+    width: 100%;
+    background: red;
+  }
+  .image-section .ab-img {
+    width: 100%;
+    height: auto;
+    scale: 1;
+    margin: 0 auto;
+  }
+  .image-section .ab-img img {
+    width: 100%;
+  }
+  .about .content {
+    width: 100%;
+  }
+  .about .cont {
+    text-align: start;
+  }
 }
