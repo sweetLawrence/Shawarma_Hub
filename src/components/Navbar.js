@@ -24,6 +24,9 @@ const Navbar = ({toggleMobileNav}) => {
         // padding: '15px',
         zIndex: 1000,
       };
+      const menuStyles = {
+        backgroundColor: scrollPosition > 300 ? '#000' : '#fff',
+      };
     return (
         <div className='navbar' style={navbarStyles}>
             {/* <div className="top">
@@ -35,9 +38,10 @@ const Navbar = ({toggleMobileNav}) => {
                 <div className="left">Shawarma Hub</div>
 
                 <div className="menu" onClick={toggleMobileNav}>
-                <span></span>
-                <span></span>
-                <span></span>
+                <span style={menuStyles}></span>
+                <span style={menuStyles}></span>
+                <span style={menuStyles}></span>
+
             </div>
 
                 <div className="right">
