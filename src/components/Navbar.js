@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import '../styles/navbar.css';
 
 import { Navdata } from './data/Navdata'
-const Navbar = () => {
+const Navbar = ({toggleMobileNav}) => {
     const [scrollPosition, setScrollPosition] = useState(0);
     useEffect(() => {
         const handleScroll = () => {
@@ -33,6 +33,13 @@ const Navbar = () => {
             </div> */}
             <div className="bottom">
                 <div className="left">Shawarma Hub</div>
+
+                <div className="menu" onClick={toggleMobileNav}>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
                 <div className="right">
                     <ul>
                         {Navdata.map((item, index) => (

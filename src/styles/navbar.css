@@ -55,3 +55,35 @@
     color: #d4af7b;
     font-weight: 600;
 }
+.navbar .menu {
+    /* position: absolute; */
+    top: 0.75rem;
+    right: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 2.25rem;
+    height: 2rem;
+    scale: 0.5;
+    display: none;
+  }
+  .navbar .menu span {
+    height: 0.4rem;
+    width: 100%;
+    background-color: white;
+    border-radius: 0.2rem;
+  }
+
+@media only screen and (max-width: 768px) {
+    .navbar .right {
+      display: none;
+    }
+    .navbar .menu {
+      display: flex;
+    }
+    
+    .navbar .bottom .left{
+   line-height: 41px;
+    }
+    
+  }

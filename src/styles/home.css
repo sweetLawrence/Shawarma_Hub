@@ -5,7 +5,7 @@
 }
 .bg {
   position: absolute;
-  background-size: contain;
+  object-fit: contain;
 }
 .bg img {
   width: 100%;
@@ -95,4 +95,71 @@
 .food-image .section p {
   /* background: red; */
   width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .bg {
+    object-fit: cover;
+    height: 100vh;
+  }
+  .bg img {
+    width: auto;
+    position: relative;
+    height: 100%;
+    top: -180px;
+    left: -330px;
+    /* filter: brightness(0.3); */
+  }
+  .advert-text {
+    width: 100%;
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    /* TO LOOK */
+  }
+  .advert-text .top {
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    font-size: 2.5em;
+  }
+  .advert-text .bottom {
+    width: 80%;
+    font-size: 1.3em;
+ 
+  }
+  .food-image {
+    /* scale: .5; */
+    /* background: red; */
+    width: 80%;
+     /* justify-content: space-around; */
+     align-items: center;
+     justify-content: center;
+     flex-wrap: wrap;
+    /* flex-direction: column; */
+    position: absolute;
+    top: 100%;
+    /*  */
+    left: 10%;
+  }
+  .food-image .section {
+    margin: 0 auto;
+    /* background: red; */
+    width: 100px;
+    scale: .9;
+    height: 100px;
+    border: 1px solid #d4af7b;
+    border-radius: 50%;
+    background-size: contain;
+    padding: 0.5em;
+    margin-bottom: 1.5em;
+  }
+  .x {
+    height: 100px;
+  }
+  .food-image .section p{
+    /* color: red; */
+
+  }
 }
