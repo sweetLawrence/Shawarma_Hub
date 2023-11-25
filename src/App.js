@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <MobileNav />
+      {/* <MobileNav /> */}
       <Home />
       <MainPage />
       <Router>

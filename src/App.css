@@ -6,7 +6,9 @@
 }
 .App {
   text-align: center;
-  overflow-x: hidden;
+  overflow: hidden!important  ;
 }
 
-
+body{
+  overflow-x: hidden;
+}

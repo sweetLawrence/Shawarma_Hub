@@ -1,11 +1,14 @@
 .home {
   /* background: black; */
   height: 100vh;
+  /* overflow-x: hidden; */
+  overflow: hidden;
   /* background-image: url('../assets/homebg.jpg'); */
 }
 .bg {
   position: absolute;
-  object-fit: contain;
+  object-fit: cover;
+  /* overflow-x: hidden; */
 }
 .bg img {
   width: 100%;
@@ -101,13 +104,16 @@
   .bg {
     object-fit: cover;
     height: 100vh;
+    width: 100%;
+    /* background: red; */
   }
-  .bg img {
-    width: auto;
+  .home .bg img {
+    width: 200%;
     position: relative;
     height: 100%;
     top: -170px;
     left: -330px;
+    overflow: hidden;
     /* filter: brightness(0.3); */
   }
   .advert-text {
