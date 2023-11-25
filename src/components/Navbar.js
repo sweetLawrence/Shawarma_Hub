@@ -17,7 +17,7 @@ const Navbar = ({toggleMobileNav}) => {
         backgroundColor: scrollPosition > 300 ? '#fff' : 'transparent',
         color: scrollPosition > 300 ? '#000' : '#fff',
         transition: 'background-color 0.3s, color 0.3s',
-        position: 'sticky',
+        position: 'fixed',
         top: 0,
         left: 0,
         width: '100%',
