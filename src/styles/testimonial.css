@@ -33,3 +33,29 @@
     font-weight: 600;
     font-size: 1.2em;
 }
+
+@media screen and (max-width: 480px) {
+    .testimonial{
+        /* background: red; */
+        width: 280px;
+        /* width: 100%; */
+        height: 250px;
+        border: .1px solid #d4af7b;
+        margin: 1em;
+        border-radius: 10px;
+        cursor: default;
+        /* scale: .73; */
+        /* box-shadow: 1px 1px 8px black; */
+    
+    }
+    .testimonial .content{
+        font-size: .9em;
+        padding: .1em;
+        width: 90%;
+        margin: .9em auto;
+        height: 150px;
+    }
+    .testimonial .name{
+        font-size: 1.3em;
+    }
+}
