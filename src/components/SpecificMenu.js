@@ -2,12 +2,12 @@ import React from 'react'
 import '../styles/specific-menu.css';
 import About1 from '../assets/about2.jpg'
 import Button from './Button';
-const SpecificMenu = ({ price, food_name, description }) => {
+const SpecificMenu = ({ price, food_name, description,image }) => {
     return (
         <div className='specific-menu'>
             <div className="container">
                 <div className="left">
-                    <img src={About1} alt="" />
+                    <img src={image} alt="" />
                 </div>
                 <div className="right">
                     <div className="top">
