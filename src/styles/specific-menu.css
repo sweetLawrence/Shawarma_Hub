@@ -131,8 +131,13 @@
    /* background: green; */
    /* width: 80%; */
    height: 90px;
-   margin: 0 auto;
+   margin: 0 9px;
    text-align: start;
    padding-top: 0em;
+ }
+ .std-btn {
+   position: absolute;
+   left: 10px;
+   /* margin-bottom: 1.5em; */
  }
 }
