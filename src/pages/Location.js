@@ -23,10 +23,19 @@ const Location = () => {
                     title='Google Map Location'
                     referrerPolicy="no-referrer-when-downgrade">
                 </iframe>
+                {/* <iframe src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJB-RajztGLxgRzv6fectcPqw&key=AIzaSyBlVt4BBWKdjF6eF7AW9tvLEF4sZyCAZHQ"
+                 width="100%" height="450" 
+                 style={{ border: "0", margin: "auto" }} 
+                 loading="lazy" 
+                 title='Google Map Location'
+                 allowfullscreen
+                 referrerPolicy="no-referrer-when-downgrade">
+                </iframe> */}
             </div>
         </div>
 
     )
+    // AIzaSyBlVt4BBWKdjF6eF7AW9tvLEF4sZyCAZHQ
 }
 
 export default Location
