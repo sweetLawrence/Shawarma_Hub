@@ -81,6 +81,12 @@
 }
 
 @media screen and (max-width: 480px) {
+   .specific-menu {
+      /* background: red; */
+      margin-bottom: 0.4em;
+      /* padding: 1.5em; */
+      scale: 1!important;
+    }
   .specific-menu .container {
     flex-direction: column;
     width: 100%;
@@ -93,27 +99,26 @@
   .container .right {
     /* background: red; */
     width: 100%;
-    display: grid;
-    place-content: center;
+    display: flex;
+    flex-direction: column;
   }
   .container .right .top {
-    display: flex;
+    width: 100%;
     justify-content: space-between;
     margin: 0.6em;
     background: red;
     height: 50px;
     /* padding: 0.5em; */
-    width: 100%;
   }
   .container .right .top h3 {
-   font-weight: 650;
-   /* padding-right: 0.4em; */
-   font-size: 1.2em;
-   /* width: 0%; */
-   font-size: 1.4em;
-   /* position: absolute; */
-   right: 0px;
-   background: green;
-   text-align: start;
- }
+    font-weight: 650;
+    /* padding-right: 0.4em; */
+    font-size: 1.2em;
+    /* width: 0%; */
+    font-size: 1.4em;
+    /* position: absolute; */
+    right: 0px;
+    background: green;
+    text-align: start;
+  }
 }
