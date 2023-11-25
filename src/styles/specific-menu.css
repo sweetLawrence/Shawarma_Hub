@@ -106,7 +106,7 @@
     width: 100%;
     justify-content: space-between;
     margin: 0.6em;
-    background: red;
+    /* background: red; */
     height: 50px;
     /* padding: 0.5em; */
   }
@@ -114,11 +114,11 @@
     font-weight: 650;
     /* padding-right: 0.4em; */
     font-size: 1.2em;
-    /* width: 0%; */
+    width: auto;
     font-size: 1.4em;
-    /* position: absolute; */
-    right: 0px;
-    background: green;
+    position: absolute;
+    left: 15px;
+    /* background: green; */
     text-align: start;
   }
 }
