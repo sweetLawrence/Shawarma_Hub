@@ -86,11 +86,12 @@
       margin-bottom: 0.4em;
       /* padding: 1.5em; */
       scale: 1!important;
+      width: 100%;
     }
   .specific-menu .container {
     flex-direction: column;
-    width: 100%;
-    height: 500px;
+    width: 100%!important;
+    height: 450px;
   }
   .container .left {
     width: 100%;
@@ -106,6 +107,7 @@
     width: 100%;
     justify-content: space-between;
     margin: 0.6em;
+    margin-bottom: .1em;
     /* background: red; */
     height: 50px;
     /* padding: 0.5em; */
@@ -121,4 +123,16 @@
     /* background: green; */
     text-align: start;
   }
+  .container .right .content {
+   color: rgb(169, 165, 165);
+   color: black;
+   font-size: 1.2em;
+   font-weight: 400;
+   /* background: green; */
+   /* width: 80%; */
+   height: 90px;
+   margin: 0 auto;
+   text-align: start;
+   padding-top: 0em;
+ }
 }
