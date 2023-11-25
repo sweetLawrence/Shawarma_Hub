@@ -11,10 +11,10 @@ const OurMenu = () => {
         <div className='our-menu'>
             <h2><span className='one'>Specialties</span><br /><span className='lxc'>Our Menu</span></h2>
             <div className="menuz">
-                <SpecificMenu price='Ksh.100' image={ChipoMasala} food_name="Chips Masala" description="Taste our delicious Chips Masala"/>
-                <SpecificMenu price='Ksh.150' image={Shawarma} food_name="Shawarma" description="Taste our delicious Shawarma Taste our delicious Shawarma"/>
-                <SpecificMenu price='Ksh.80' image={Fries} food_name="Fries" description="Taste our delicious Fries"/>
-                <SpecificMenu price='Ksh.150' image={Strawberry}  food_name="Strawberry" description="Taste our delicious Shawarma Taste our delicious Shawarma"/>  
+                <SpecificMenu price='Ksh.100' image={ChipoMasala} food_name="Chips Masala" description="Enjoy the delicious delight of our Masala Chips."/>
+                <SpecificMenu price='Ksh.150' image={Shawarma} food_name="Shawarma" description="Savor the delicious flavor of our Shawarma."/>
+                <SpecificMenu price='Ksh.80' image={Fries} food_name="Fries" description="Our golden fries will crunch to perfection."/>
+                <SpecificMenu price='Ksh.150' image={Strawberry}  food_name="Strawberry" description="Taste the pure bliss of our Milkshake with Strawberry."/>  
             </div>
             <div className="more">
                 <Button content="More" />
