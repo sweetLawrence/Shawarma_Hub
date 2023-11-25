@@ -13,7 +13,7 @@ const OurMenu = () => {
             <h2><span className='one'>Specialties</span><br /><span className='lxc'>Our Menu</span></h2>
             <div className="menuz">
                 <SpecificMenu price='Ksh.80' image={Fries} food_name="Fries" description="Crunch into perfection with our golden Fries—irresistibly crispy and seasoned to perfection!"/>
-                <SpecificMenu price='Ksh.150' image={Shawarma} food_name="Shawarma" description="Savor the delicious flavor of our Shawarma."/>
+                <SpecificMenu price='Ksh.150' image={Shawarma} food_name="Shawarma" description="Savor the delicious flavor of our Shawarma, a taste sensation that delights every palate."/>
                 <SpecificMenu price='Ksh.250' image={Mkorogo} food_name="Mkorogo" description="Our yummy mkorogo is a perfect reflection of our kitchen artistry."/>
                 <SpecificMenu price='Ksh.150' image={Strawberry}  food_name="Strawberry" description="Taste the pure bliss of our Milkshake with Strawberry."/>  
             </div>
