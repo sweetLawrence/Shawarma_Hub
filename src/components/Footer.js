@@ -7,14 +7,14 @@ const Footer = () => {
       <div className="footer-content">
         <div className="footer-section">
           <h3>Contact Us</h3>
-          <p>123-60200 Juja</p>
+          <p>62000–00200 Juja</p>
           <p>Email: shawarmahub@gmail.com</p>
-          <p>Phone: +254 719502891</p>
+          <p>Phone: +254 112079785</p>
         </div>
         <div className="footer-section">
           <h3>Opening Hours</h3>
           <p>Monday-Friday 2:00 pm-9:00pm</p>
-          <p>Saturday-Sunday: 12:00pm-11:00pm</p>
+          <p>Saturday-Sunday: 2:00pm-9:00pm</p>
         </div>
         <div className="footer-section">
           <h3>Follow Us</h3>
