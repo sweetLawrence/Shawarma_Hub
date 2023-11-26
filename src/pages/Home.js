@@ -9,7 +9,7 @@ const Home = () => {
             </div>
             <div className="advert-text">
                 <div className="top">Shawarma Hub</div>
-                <div className="bottom">Flavors that race to ur plate. Fast,fresh and fearless </div>
+                <div className="bottom">Flavors that Race to your Plate. Fast,Fresh and Fearless </div>
                 <div className="food-image">
                     <div className="section">
                         <div className="x"></div>
