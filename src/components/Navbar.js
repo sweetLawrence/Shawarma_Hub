@@ -1,9 +1,12 @@
 import React, { useEffect, useState } from 'react'
 import '../styles/navbar.css';
+import { Link } from 'react-router-dom'
 
 import { Navdata } from './data/Navdata'
-const Navbar = ({toggleMobileNav}) => {
+const Navbar = ({ toggleMobileNav }) => {
     const [scrollPosition, setScrollPosition] = useState(0);
+    const [activeItem, setActiveItem] = useState(null);
+
     useEffect(() => {
         const handleScroll = () => {
             setScrollPosition(window.scrollY);
@@ -23,10 +26,11 @@ const Navbar = ({toggleMobileNav}) => {
         width: '100%',
         // padding: '15px',
         zIndex: 1000,
-      };
-      const menuStyles = {
+    };
+
+    const menuStyles = {
         backgroundColor: scrollPosition > 300 ? '#000' : '#fff',
-      };
+    };
     return (
         <div className='navbar' style={navbarStyles}>
             {/* <div className="top">
@@ -38,16 +42,25 @@ const Navbar = ({toggleMobileNav}) => {
                 <div className="left">Shawarma Hub</div>
 
                 <div className="menu" onClick={toggleMobileNav}>
-                <span style={menuStyles}></span>
-                <span style={menuStyles}></span>
-                <span style={menuStyles}></span>
+                    <span style={menuStyles}></span>
+                    <span style={menuStyles}></span>
+                    <span style={menuStyles}></span>
 
-            </div>
+                </div>
 
                 <div className="right">
                     <ul>
                         {Navdata.map((item, index) => (
-                            <li className='row' key={index}>{item}</li>
+                            <Link
+                                onClick={() => {
+                                    setActiveItem(item.toLowerCase())
+                                    console.log(item.toLowerCase())
+                                }}
+                                className={`link ${activeItem === item.toLowerCase() ? 'active' : ''}`}
+                                to={`/${item.toLowerCase()}`}>
+                                <li
+                                    className='row' key={index}>{item}</li>
+                            </Link>
                         ))}
                     </ul>
                 </div>

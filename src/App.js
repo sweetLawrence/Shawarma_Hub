@@ -14,16 +14,14 @@ import Contacts from './pages/Contacts';
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      {/* <MobileNav /> */}
-      <Home />
-      <MainPage />
       <Router>
+        <Navbar />
         <Routes>
+          <Route path="/" element={<MainPage />} />
+          <Route path="/home" element={<MainPage />} />
           <Route path="/menu" element={<FullMenu />} />
-          <Route path="/contacts" element={<Contacts.js />} />
+          <Route path="/contact" element={<Contacts />} />
         </Routes>
-
       </Router>
       <Footer />
     </div>
