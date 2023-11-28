@@ -10,7 +10,7 @@ const MobileNav = ({ closeMobileNav }) => {
   };
 
   return (
-    <div className='mobile-nav animate__animated animate__backInRight'>
+    <div className='mobile-nav animate__animated animate__fadeIn'>
       <div className="navigation">
         <ul>
           {Navdata.map((item, index) => (
