@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import '../styles/mobilenav.css';
 import { Link } from 'react-router-dom'
-
 import { Navdata } from './data/Navdata'
 
 const MobileNav = ({ closeMobileNav }) => {
@@ -15,11 +14,13 @@ const MobileNav = ({ closeMobileNav }) => {
         <ul>
           {Navdata.map((item, index) => (
             // <li className='mobile-row' key={index}>
-            // <Link
-            //   onClick={handleItemClick}
-            //   to={`/${item.toLowerCase()}`}>
-              <li className='mobile-row' key={index}>{item}</li>
-            // </Link>
+              <Link
+                className='link'
+                onClick={handleItemClick}
+                to={`/${item.toLowerCase()}`}
+              >
+                <li className='mobile-row' key={index}>{item}</li>
+              </Link>
             // </li>
             // <li className='mobile-row' key={index}>{item}</li>
           ))}

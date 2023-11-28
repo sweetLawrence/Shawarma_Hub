@@ -39,8 +39,9 @@ function App() {
           <Route path="/menu" element={<FullMenu />} />
           <Route path="/contact" element={<Contacts />} />
         </Routes>
+        {mobileNavVisible && <MobileNav closeMobileNav={closeMobileNav} />}
       </Router>
-      {mobileNavVisible && <MobileNav closeMobileNav={closeMobileNav} />}
+      
       <Footer />
     </div>
   );
