@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import '../styles/mobilenav.css';
+import 'animate.css'
 import { Link } from 'react-router-dom'
 import { Navdata } from './data/Navdata'
 
@@ -9,7 +10,7 @@ const MobileNav = ({ closeMobileNav }) => {
   };
 
   return (
-    <div className='mobile-nav'>
+    <div className='mobile-nav animate__animated animate__backInRight'>
       <div className="navigation">
         <ul>
           {Navdata.map((item, index) => (

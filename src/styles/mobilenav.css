@@ -5,12 +5,14 @@
 @media only screen and (max-width: 768px) {
   .mobile-nav {
     display: block;
-    width: 70%;
+    width: 60%;
     position: fixed;
     top: 0;
-    right: 0;
+    right: 0%;
+    /* left: 20%; */
     margin-top: 5em;
     scale: 0.9;
+    border: .1px solif black;
     border-radius: 10px;
 
   }
