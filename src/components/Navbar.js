@@ -24,13 +24,17 @@ const Navbar = ({ toggleMobileNav }) => {
         top: 0,
         left: 0,
         width: '100%',
-        // padding: '15px',
         zIndex: 1000,
     };
 
     const menuStyles = {
         backgroundColor: scrollPosition > 300 ? '#000' : '#fff',
     };
+
+    const handleItemClick = (item) => {
+        setActiveItem(item.toLowerCase());
+    };
+
     return (
         <div className='navbar' style={navbarStyles}>
             {/* <div className="top">
@@ -52,11 +56,11 @@ const Navbar = ({ toggleMobileNav }) => {
                     <ul>
                         {Navdata.map((item, index) => (
                             <Link
-                                onClick={() => {
-                                    setActiveItem(item.toLowerCase())
-                                    console.log(item.toLowerCase())
+                                onClick={() => handleItemClick(item)}
+                                style={{
+                                    color: activeItem === item.toLowerCase() ? '#d4af7b' : (scrollPosition > 300 ? '#000' : '#fff'),
+                                    textDecoration: 'none',
                                 }}
-                                className={`link ${activeItem === item.toLowerCase() ? 'active' : ''}`}
                                 to={`/${item.toLowerCase()}`}>
                                 <li
                                     className='row' key={index}>{item}</li>

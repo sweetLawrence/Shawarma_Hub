@@ -10,13 +10,13 @@
 .navbar .bottom {
   display: flex;
 }
-.link {
+/* .link {
   text-decoration: none;
   color: white;
 }
 .link.active{
     color: #d4af7b!important;
-}
+} */
 /* .navbar .bottom{
     position:;
     top: 0;
