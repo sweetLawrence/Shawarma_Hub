@@ -35,6 +35,10 @@ const Navbar = ({ toggleMobileNav }) => {
         setActiveItem(item.toLowerCase());
     };
 
+    function handleClick() {
+        toggleMobileNav()
+        console.log("clicked")
+    }
     return (
         <div className='navbar' style={navbarStyles}>
             {/* <div className="top">
@@ -45,7 +49,7 @@ const Navbar = ({ toggleMobileNav }) => {
             <div className="bottom">
                 <div className="left">Shawarma Hub</div>
 
-                <div className="menu" onClick={toggleMobileNav}>
+                <div className="menu" onClick={handleClick}>
                     <span style={menuStyles}></span>
                     <span style={menuStyles}></span>
                     <span style={menuStyles}></span>

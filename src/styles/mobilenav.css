@@ -1,5 +1,10 @@
+.mobile-nav{
+  display: none;
+}
+
 @media only screen and (max-width: 768px) {
     .mobile-nav {
+      display: block;
       width: 100%;
       position: fixed;
       top: 0;
@@ -27,13 +32,13 @@
       padding: 0.9em;
       padding-left: 0.5em;
       filter: opacity(.9);
-      /* text-align: right; */
+  
     }
   
     .mobile-nav .navigation .mobile-row:hover {
-      /* scale: 1.1; */
-      color: green;
-      background: #2596be;
+     
+      color: #d4af7b;;
+      /* background: #2596be; */
       font-weight: 700;
     }
   }

@@ -12,10 +12,27 @@ import FullMenu from './pages/FullMenu';
 import Contacts from './pages/Contacts';
 
 function App() {
+  // const [mobileNavOpen, setMobileNavOpen] = useState(false);
+  const [mobileNavVisible, setMobileNavVisible] = useState(false);
+  // const toggleMobileNav = () => {
+  //     setMobileNavOpen(!mobileNavOpen);
+  // };
+
+  // const closeMobileNav = () => {
+  //     setMobileNavOpen(false);
+  // };
+
+  const toggleMobileNav = () => {
+    setMobileNavVisible(!mobileNavVisible);
+  };
+  const closeMobileNav = () => {
+    setMobileNavVisible(false);
+  };
+
   return (
     <div className="App">
       <Router>
-        <Navbar />
+        <Navbar toggleMobileNav={toggleMobileNav}/>
         <Routes>
           <Route path="/" element={<MainPage />} />
           <Route path="/home" element={<MainPage />} />
@@ -23,6 +40,7 @@ function App() {
           <Route path="/contact" element={<Contacts />} />
         </Routes>
       </Router>
+      {mobileNavVisible && <MobileNav closeMobileNav={closeMobileNav} />}
       <Footer />
     </div>
   );
