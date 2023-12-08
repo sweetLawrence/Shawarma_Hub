@@ -79,7 +79,11 @@
   border-radius: 10px;
 
   background: #d4af7b;
-  transition: all .5s;
+  transition: all .2s;
+}
+.details .qty{
+    font-size: 2em;
+    margin: 0 .5em;
 }
 .details .top .right .plus:hover,
 .minus:hover {
