@@ -17,7 +17,8 @@ const Navbar = ({ toggleMobileNav }) => {
         };
     }, []);
     const navbarStyles = {
-        backgroundColor: scrollPosition > 300 ? '#fff' : '#000',
+        backgroundColor: scrollPosition > 300 ? '#fff' : 'rgb(0, 0, 0,.85)',
+        
         color: scrollPosition > 300 ? '#000' : '#fff',
         transition: 'background-color 0.3s, color 0.3s',
         position: 'fixed',

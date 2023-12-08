@@ -1,4 +1,4 @@
 import React from 'react'
 
-export const Navdata = ["Home","Menu","Contact"];
+export const Navdata = ["Home","Menu"];
 
