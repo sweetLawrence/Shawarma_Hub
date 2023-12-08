@@ -1,15 +1,18 @@
 import React from 'react'
 import '../styles/specific-menu.css';
-import { Link } from 'react-router-dom'
+import { Link,useNavigate } from 'react-router-dom'
 import About1 from '../assets/about2.jpg'
 import Button from './Button';
 import OrderPage from './OrderPage';
 import { useState } from 'react';
 const SpecificMenu = ({ price, food_name, description, image }) => {
     const [isModalOpen, setIsModalOpen] = useState(false);
+    const navigation = useNavigate();
 
     const openModal = () => {
         setIsModalOpen(true);
+        navigation('/payment')
+
     };
 
     // const closeModal = () => {
