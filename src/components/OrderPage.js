@@ -16,25 +16,28 @@ const OrderPage = () => {
             <div className="details">
                 <div className="top">
                     <div className="left">{price}</div>
-                    <div className="right">Receipt</div>
+                    <div className="right">
+                        <span className="minus">-</span>
+                        <span className="plus">+</span>
+                    </div>
                 </div>
                 <div className="middle">
                     <div className="input-object">
-                        <label htmlFor="">Product:</label>
+                        <label htmlFor="">Order:</label>
                         <input type="text" className="receipient" value={food_name} />
                     </div>
                     <div className="input-object">
-                        <label htmlFor="">To:</label>
+                        <label htmlFor="">Receipient:</label>
                         <input type="text" className="receipient" placeholder='Enter Your Name' />
                     </div>
                     <div className="input-object">
                         <label htmlFor="">Apartment:</label>
                         <input type="text" className="receipient" placeholder='Enter Your Apartment Name' />
                     </div>
-                    <div className="input-object company">
+                    {/* <div className="input-object company">
                         <label htmlFor="">From:</label>
                         <input type="text" className="receipient" value="ShawarmaHub" />
-                    </div>
+                    </div> */}
 
                 </div>
                 <div className="bottom">

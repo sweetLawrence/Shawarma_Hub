@@ -13,12 +13,10 @@
   z-index: 100;
   /* position: relative; */
   top: 0;
-  scale: .9;
-
+  scale: 0.9;
 }
 /* Add this to your CSS file or style tag */
 
-  
 .orderpage .name {
   font-size: 1.6em;
   padding: 0.4em;
@@ -57,6 +55,29 @@
   font-size: 1.2em;
   font-weight: 600;
 }
+.details .top .right {
+  /* background: green; */
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-weight: 700;
+
+  /* padding: .5em; */
+}
+.details .top .right .plus,
+.minus {
+  width: 70px;
+  height: 70px;
+  margin-left: 0.5em;
+  font-size: 2.2em;
+  padding: 0.5em;
+  line-height: 2vh;
+  scale: .7;
+  border-radius: 10px;
+  /* border: 2px solid black; */
+  background: #d4af7b;
+}
 .details .middle {
   /* background: green; */
   margin: 0.3em;
@@ -71,8 +92,8 @@
   align-items: center;
   /* justify-content: space-around; */
 }
-.details .company input{
-    color: #d4af7b!important;
+.details .company input {
+  color: #d4af7b !important;
 }
 .details .middle .input-object label {
   font-size: 1.2em;
@@ -92,50 +113,49 @@
   margin-left: 0.5em;
   width: 55%;
 }
-.orderpage .payment{
-   display: grid;
-   place-content: center;
+.orderpage .payment {
+  display: grid;
+  place-content: center;
 }
-.orderpage h3{
-    font-size: 1.2em;
+.orderpage h3 {
+  font-size: 1.2em;
 }
-.orderpage .payment input{
-    outline: none;
-    border: none;
-    border-bottom: 0.1px solid grey;
-    padding: 0.5em;
-    height: 50px;
-    background: none;
-    font-weight: 600;
-    font-size: 0.8em;
-    margin-left: 0.5em;
-    width: 100%;
-    font-size: 1.2em; 
-    margin: .5em auto;  
+.orderpage .payment input {
+  outline: none;
+  border: none;
+  border-bottom: 0.1px solid grey;
+  padding: 0.5em;
+  height: 50px;
+  background: none;
+  font-weight: 600;
+  font-size: 0.8em;
+  margin-left: 0.5em;
+  width: 100%;
+  font-size: 1.2em;
+  margin: 0.5em auto;
 }
-.orderpage .payment input::placeholder{
-    font-size: .6em;
-    color: #d4af7b;
+.orderpage .payment input::placeholder {
+  font-size: 0.6em;
+  color: #d4af7b;
 }
-.orderpage .payment .pay-btn{
-    /* text-align: center; */
-    outline: none;
-    color: white;
-    background: #d4af7b;
-    /* padding: .5em 1.2em; */
-    font-size: 1.2em;
-    border: none;
-    margin-top: 1em;
-    margin-bottom: 1.2em;
-    border-radius: 50px;
+.orderpage .payment .pay-btn {
+  /* text-align: center; */
+  outline: none;
+  color: white;
+  background: #d4af7b;
+  /* padding: .5em 1.2em; */
+  font-size: 1.2em;
+  border: none;
+  margin-top: 1em;
+  margin-bottom: 1.2em;
+  border-radius: 50px;
 }
 
-@media screen and (min-width:468px) {
-    .orderpage{
-        flex-direction: column;
-        width: 50%;
-        scale: .8;
-        margin: 2.5em auto;
-    }
-    
+@media screen and (min-width: 468px) {
+  .orderpage {
+    flex-direction: column;
+    width: 50%;
+    scale: 0.8;
+    margin: 2.5em auto;
+  }
 }
