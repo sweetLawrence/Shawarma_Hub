@@ -2,15 +2,22 @@
   width: 99%;
   height: 100vh;
   background: #f0f2f8;
-  position: absolute;
-  top: 5em;
+  /* position: absolute; */
+  /* top: 5em; */
+  margin: 5em auto;
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   flex-direction: column;
   /* justify-content: center; */
   align-items: center;
-  z-index: 5;
+  z-index: 100;
+  /* position: relative; */
+  top: 0;
+
 }
+/* Add this to your CSS file or style tag */
+
+  
 .orderpage .name {
   font-size: 1.6em;
   padding: 0.4em;
@@ -119,4 +126,14 @@
     margin-top: 1em;
     margin-bottom: 1.2em;
     border-radius: 50px;
+}
+
+@media screen and (min-width:468px) {
+    .orderpage{
+        flex-direction: column;
+        width: 50%;
+        scale: .8;
+        margin: 2.5em auto;
+    }
+    
 }

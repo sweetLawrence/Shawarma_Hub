@@ -1,8 +1,21 @@
 import React from 'react'
 import '../styles/specific-menu.css';
+import { Link } from 'react-router-dom'
 import About1 from '../assets/about2.jpg'
 import Button from './Button';
-const SpecificMenu = ({ price, food_name, description,image }) => {
+import OrderPage from './OrderPage';
+import { useState } from 'react';
+const SpecificMenu = ({ price, food_name, description, image }) => {
+    const [isModalOpen, setIsModalOpen] = useState(false);
+
+    const openModal = () => {
+        setIsModalOpen(true);
+    };
+
+    // const closeModal = () => {
+    //     setIsModalOpen(false);
+
+    // };
     return (
         <div className='specific-menu'>
             <div className="container">
@@ -19,7 +32,7 @@ const SpecificMenu = ({ price, food_name, description,image }) => {
                     {/* <p className="content">Chipo Masala plus soda</p> */}
                     <p className='content'>{description}</p>
                     {/* <button className='std-btn'>Order Now</button> */}
-                    <Button content="Order Now" />
+                    <Button content="Order Now" onClick={openModal} />
                 </div>
             </div>
         </div>

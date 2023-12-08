@@ -10,6 +10,7 @@ import MobileNav from './components/MobileNav';
 import MainPage from './pages/MainPage';
 import FullMenu from './pages/FullMenu';
 import Contacts from './pages/Contacts';
+import OrderPage from './components/OrderPage';
 
 function App() {
   // const [mobileNavOpen, setMobileNavOpen] = useState(false);
@@ -38,6 +39,7 @@ function App() {
           <Route path="/home" element={<MainPage />} />
           <Route path="/menu" element={<FullMenu />} />
           <Route path="/contact" element={<Contacts />} />
+          <Route path="/payment" element={<OrderPage />} />
         </Routes>
         {mobileNavVisible && <MobileNav closeMobileNav={closeMobileNav} />}
       </Router>
