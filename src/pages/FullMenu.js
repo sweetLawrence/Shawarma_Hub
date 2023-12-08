@@ -1,4 +1,5 @@
 import React from 'react'
+import '../styles/our-menu.css';
 import SpecificMenu from '../components/SpecificMenu'
 import Button from '../components/Button'
 import ChipoMasala from '../assets/chipomasala.png'
@@ -9,8 +10,8 @@ import Strawberry from '../assets/strawberry.png'
 
 const FullMenu = () => {
   return (
-    <div className='our-menu'>
-    <h2><span className='one'>Specialties</span><br /><span className='lxc'>Our Menu</span></h2>
+    <div className='our-menu full-menu'>
+    <h2><span className='one'>Specialties</span><br /></h2>
     <div className="menuz">
         <SpecificMenu price='Ksh.80' image={Fries} food_name="Fries" description="Crunch into perfection with our golden Fries—irresistibly crispy and seasoned to perfection!"/>
         <SpecificMenu price='Ksh.150' image={Shawarma} food_name="Shawarma" description="Savor the delicious flavor of our Shawarma, a taste sensation that delights every palate."/>
