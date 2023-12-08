@@ -12,12 +12,16 @@ const OrderPage = () => (
             </div>
             <div className="middle">
                 <div className="input-object">
+                    <label htmlFor="">Product:</label>
+                    <input type="text" className="receipient" value="Chips Masala" />
+                </div>
+                <div className="input-object">
                     <label htmlFor="">To:</label>
                     <input type="text" className="receipient" placeholder='Enter Your Name' />
                 </div>
                 <div className="input-object">
                     <label htmlFor="">Apartment:</label>
-                    <input type="text" className="receipient" placeholder='Enter Your Apartment Name'/>
+                    <input type="text" className="receipient" placeholder='Enter Your Apartment Name' />
                 </div>
                 <div className="input-object company">
                     <label htmlFor="">From:</label>
@@ -32,7 +36,7 @@ const OrderPage = () => (
         </div>
         <div className="payment">
             <h3>Enter Your Phone Number</h3>
-            <input type='number' placeholder='Enter Phone Number (Saf)'/>
+            <input type='number' placeholder='Enter Phone Number (Saf)' />
             <div className="pay-btn">
                 {/* <Button content="Pay" /> */}
                 <button className='pay-btn'>Pay</button>
