@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/orderpage.css';
+import { FaPlus, FaMinus } from 'react-icons/fa';
 import Button from './Button';
 import { useLocation } from 'react-router-dom';
 import { useEffect } from 'react';
@@ -17,8 +18,8 @@ const OrderPage = () => {
                 <div className="top">
                     <div className="left">{price}</div>
                     <div className="right">
-                        <span className="minus">-</span>
-                        <span className="plus">+</span>
+                        <span className="minus"><FaMinus/></span>
+                        <span className="plus"><FaPlus/></span>
                     </div>
                 </div>
                 <div className="middle">
