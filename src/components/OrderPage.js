@@ -2,10 +2,14 @@ import React from 'react'
 import '../styles/orderpage.css';
 import Button from './Button';
 import { useLocation } from 'react-router-dom';
+import { useEffect } from 'react';
 
 const OrderPage = () => {
     const location = useLocation();
     const { food_name, price } = location.state || {};
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
     return (
         <div className='orderpage'>
             <div className="name">Shawarma Hub</div>

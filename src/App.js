@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route,useLocation } from 'react-router-dom'
 import Navbar from './components/Navbar';
 import Home from './pages/Home'
 import Footer from './components/Footer';
@@ -11,6 +11,7 @@ import MainPage from './pages/MainPage';
 import FullMenu from './pages/FullMenu';
 import Contacts from './pages/Contacts';
 import OrderPage from './components/OrderPage';
+import { useEffect } from 'react';
 
 function App() {
   // const [mobileNavOpen, setMobileNavOpen] = useState(false);
@@ -29,6 +30,9 @@ function App() {
   const closeMobileNav = () => {
     setMobileNavVisible(false);
   };
+
+  // reset scroll height 😁
+  
 
   return (
     <div className="App">
