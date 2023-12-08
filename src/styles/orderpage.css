@@ -1,0 +1,122 @@
+.orderpage {
+  width: 99%;
+  height: 100vh;
+  background: #f0f2f8;
+  position: absolute;
+  top: 5em;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  z-index: 5;
+}
+.orderpage .name {
+  font-size: 1.6em;
+  padding: 0.4em;
+  /* background: red; */
+  font-weight: 600;
+  width: 100%;
+  padding-left: 0.8em;
+  text-align: start;
+  color: #d4af7b;
+}
+.orderpage .details,
+.orderpage .payment {
+  /* width: 500px; */
+  width: 95%;
+  height: 300px;
+  /* aspect-ratio: 3/2; */
+  background-color: white;
+  border-radius: 10px;
+  /* margin: .5em; */
+  margin-bottom: 0.6em;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+.details .top {
+  /* background: green; */
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.9em;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+.details .middle {
+  /* background: green; */
+  margin: 0.3em;
+  width: 100%;
+}
+.details .middle .input-object {
+  width: 100%;
+  margin: 1.5em;
+  height: 6vh;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  /* justify-content: space-around; */
+}
+.details .company input{
+    color: #d4af7b!important;
+}
+.details .middle .input-object label {
+  font-size: 1.2em;
+  font-weight: 600;
+  width: 80px;
+  text-align: start;
+  margin-right: 1.5em;
+}
+.details .middle input {
+  outline: none;
+  border: none;
+  border-bottom: 0.1px solid grey;
+  padding: 0.5em;
+  background: none;
+  font-weight: 600;
+  font-size: 0.8em;
+  margin-left: 0.5em;
+  width: 55%;
+}
+.orderpage .payment{
+   display: grid;
+   place-content: center;
+}
+.orderpage h3{
+    font-size: 1.2em;
+}
+.orderpage .payment input{
+    outline: none;
+    border: none;
+    border-bottom: 0.1px solid grey;
+    padding: 0.5em;
+    height: 50px;
+    background: none;
+    font-weight: 600;
+    font-size: 0.8em;
+    margin-left: 0.5em;
+    width: 100%;
+    font-size: 1.2em; 
+    margin: .5em auto;  
+}
+.orderpage .payment input::placeholder{
+    font-size: .6em;
+    color: #d4af7b;
+}
+.orderpage .payment .pay-btn{
+    /* text-align: center; */
+    outline: none;
+    color: white;
+    background: #d4af7b;
+    /* padding: .5em 1.2em; */
+    font-size: 1.2em;
+    border: none;
+    margin-top: 1em;
+    margin-bottom: 1.2em;
+    border-radius: 50px;
+}
