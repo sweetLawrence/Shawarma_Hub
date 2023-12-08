@@ -11,7 +11,7 @@ const SpecificMenu = ({ price, food_name, description, image }) => {
 
     const openModal = () => {
         setIsModalOpen(true);
-        navigation('/payment')
+        navigation('/payment',{ state: { food_name, price } }   )
 
     };
 
