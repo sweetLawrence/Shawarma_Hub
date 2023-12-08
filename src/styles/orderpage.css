@@ -60,9 +60,10 @@
   /* width: 40%; */
   display: flex;
   align-items: center;
-  /* justify-content: space-around; */
+  justify-content: flex-end;
   font-weight: 700;
   scale: 0.5;
+  margin-right: -4em;
 
   /* padding: .5em; */
 }
