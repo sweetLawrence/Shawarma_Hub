@@ -33,7 +33,7 @@ const OrderPage = () => {
                     </div>
                     <div className="input-object company">
                         <label htmlFor="">From:</label>
-                        <input type="text" className="receipient" value="ShawarmaHub.Inc" />
+                        <input type="text" className="receipient" value="ShawarmaHub" />
                     </div>
 
                 </div>
