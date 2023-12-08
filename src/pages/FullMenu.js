@@ -8,8 +8,13 @@ import Fries from '../assets/fries-menu.png'
 import Mkorogo from '../assets/mkorogo.png'
 import Strawberry from '../assets/strawberry.png'
 import OrderPage from '../components/OrderPage';
+import { useEffect } from 'react';
 
 const FullMenu = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+}, []);
+
   return (
     <div className='our-menu full-menu'>
       <h2><span className='one'>Specialties</span><br /></h2>
