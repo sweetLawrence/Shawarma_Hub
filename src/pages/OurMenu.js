@@ -8,7 +8,11 @@ import Fries from '../assets/fries-menu.png'
 import Mkorogo from '../assets/mkorogo.png'
 import Strawberry from '../assets/strawberry.png'
 import { Link } from 'react-router-dom';
+import { useEffect } from 'react';
 const OurMenu = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
     return (
         <div className='our-menu'>
             <h2><span className='one'>Specialties</span><br /><span className='lxc'>Our Menu</span></h2>
