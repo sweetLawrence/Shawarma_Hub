@@ -57,7 +57,7 @@ const OrderPage = () => {
             <div className="name">Shawarma Hub</div>
             <div className="details">
                 <div className="top">
-                    <div className="left">{price}</div>
+                    <div className="left">Ksh.{newprice}</div>
                     <div className="right">
                         <span className="minus"
                             onClick={minusOrder}
