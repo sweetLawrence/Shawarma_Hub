@@ -21,7 +21,7 @@ const FullMenu = () => {
         {/* <OrderPage /> */}
       </div>
       <div className="more">
-        <Button content="More" />
+        {/* <Button content="More" /> */}
       </div>
     </div>
   )

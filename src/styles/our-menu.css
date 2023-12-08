@@ -1,24 +1,59 @@
 .our-menu {
-    margin: 1em;
+  margin: 1em;
 }
 .our-menu .one {
   font-family: cursive;
   font-size: 2.4em;
   color: #d4af7b;
-  color: rgb(0, 0, 0,.5);
+  color: rgb(0, 0, 0, 0.5);
 }
 .our-menu .lxc {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-size: 1.8em;
 }
-.our-menu .menuz{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+.our-menu .menuz {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
-.full-menu{
+.full-menu {
   margin-top: 5em;
   /* background-color: red; */
+}
+
+.our-menu .more {
+  background: red;
+  color: white;
+  font-size: 1.2em;
+  /* font */
+  padding: .5em;
+  margin-left: .2em;
+  text-align: left;
+  color: #d4af7b;
+  background: white;
+  font-weight: 600;
+  /* background: #d4af7b; */
+  width: 100%;
+  cursor: pointer;
+}
+.arrow-right{
+  animation: shake 3s fowards infinite linear;
+}
+.more .link{
+  text-decoration: none;
+  color: #d4af7b;
+  transition: all 1s;
+}
+.more .link:hover{
+  text-decoration: underline;
+}
+@keyframes slideIn {
+  from {
+      margin-left:0 ;
+  }
+  to {
+      margin-left: 20%;
+  }
 }
