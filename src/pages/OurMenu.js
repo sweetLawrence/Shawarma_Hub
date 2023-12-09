@@ -23,7 +23,6 @@ const OurMenu = () => {
                 <SpecificMenu price='Ksh.150' image={Strawberry} food_name="Strawberry" description="Taste the pure bliss of our Strawberry Milkshake—a delightful symphony of sweetness." />
             </div>
             <div className="more">
-                {/* <Button content="More" /> */}
                 <Link className='link' to="/menu">
                     More <span className='arrow-right'>&#8594;</span>
                 </Link>
