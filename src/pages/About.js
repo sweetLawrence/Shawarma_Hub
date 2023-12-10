@@ -14,7 +14,7 @@ const About = () => {
                     </div> */}
                 </div>
                 <div className="content">
-                    <h2><span className='one'>about</span> <br /> <span className='lxc'>Shawarma Hub</span></h2>
+                    <h2><span className='one'>About</span> <br /> <span className='lxc'>Shawarma Hub</span></h2>
 
                     <p className="cont">
                         Welcome to Shawarma Hub, where you can get delicious fast food whenever you want it. Enter a world of culinary delight where our skillfully prepared shawarmas and wide range of menu items promise a tasty adventure that will satisfy every craving. Shawarma Hub is the place to go if you're looking for a quick and delicious meal that is also committed to quality and speed.
