@@ -18,7 +18,7 @@ const Navbar = ({ toggleMobileNav }) => {
     }, []);
     const navbarStyles = {
         backgroundColor: scrollPosition > 300 ? '#fff' : 'rgb(0, 0, 0,.85)',
-        
+
         color: scrollPosition > 300 ? '#000' : '#fff',
         transition: 'background-color 0.3s, color 0.3s',
         position: 'fixed',
@@ -48,7 +48,20 @@ const Navbar = ({ toggleMobileNav }) => {
                 <p className="openhrs">Open Hours:Monday-Sunday 2:00 pm-9:00pm</p>
             </div> */}
             <div className="bottom">
-                <div className="left">Shawarma Hub</div>
+                <div className="left">
+
+                    <Link
+                        className='logo'
+                        // onClick={() => handleItemClick(item)}
+                        style={{
+                            color: (scrollPosition > 300 ? '#000' : '#fff'),
+                            textDecoration: 'none',
+
+                        }}
+                        to={`/`}>
+                        Shawarma Hub
+                    </Link>
+                </div>
 
                 <div className="menu" onClick={handleClick}>
                     <span style={menuStyles}></span>

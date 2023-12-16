@@ -10,6 +10,12 @@
 .navbar .bottom {
   display: flex;
 }
+.navbar .logo{
+  transition: all .3s!important;
+}
+.navbar .logo:hover{
+  color: #d4af7b!important;
+}
 /* .link {
   text-decoration: none;
   color: white;
