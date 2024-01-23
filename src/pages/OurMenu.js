@@ -35,7 +35,7 @@ const OurMenu = () => {
                     <h2 className='foodTitle drinkTitle'>Drinks</h2>
                     <div className="menuz">
                     <SpecificMenu price='Ksh.150' image={Strawberry} food_name="Strawberry" description="Taste the pure bliss of our Strawberry Milkshake—a delightful symphony of sweetness." />
-                    <SpecificMenu price='Ksh.150' image={Vanilla} food_name="Vanilla Shake" description="Taste the pure bliss of our Strawberry Milkshake—a delightful symphony of sweetness." />
+                    <SpecificMenu price='Ksh.150' image={Vanilla} food_name="Vanilla Shake" description="Indulge in the creamy goodness of our Vanilla Shake—a classic treat for your taste." />
                     </div>
                 </div>
                

@@ -32,18 +32,18 @@ const FullMenu = () => {
           <SpecificMenu price='Ksh.150' image={Shawarma} food_name="Shawarma" description="Savor the delicious flavor of our Shawarma, a taste sensation that delights every palate." />
           <SpecificMenu price='Ksh.250' image={Mkorogo} food_name="Mkorogo" description="Our yummy Mkorogo showcases kitchen artistry, a perfect gastronomic reflection." />
           <SpecificMenu price='Ksh.100' image={Mshakiki} food_name="Mshakiki" description="" />
-          <SpecificMenu price='Ksh.170' image={Breast} food_name="Chicken Breast" description="" />
-          <SpecificMenu price='Ksh.150' image={Leg} food_name="Chicken Leg" description="" />
+          <SpecificMenu price='Ksh.170' image={Breast} food_name="Chicken Breast" description="Savor the lean and tender perfection of our Chicken Breast—a protein-packed choice for a wholesome meal." />
+          <SpecificMenu price='Ksh.150' image={Leg} food_name="Chicken Leg" description="Delight in the savory goodness of our Chicken Leg—succulent, flavorful, and perfectly seasoned." />
         </div>
 
         <div className="drinks">
           <h2 className='foodTitle drinkTitle'>Drinks</h2>
           <div className="menuz">
-          <SpecificMenu price='Ksh.150' image={Strawberry} food_name="Strawberry" description="Taste the pure bliss of our Strawberry Milkshake—a delightful symphony of sweetness." />
-                    <SpecificMenu price='Ksh.150' image={Vanilla} food_name="Vanilla Shake" description="Taste the pure bliss of our Strawberry Milkshake—a delightful symphony of sweetness." />
-                    <SpecificMenu price='Ksh.170' image={Oreo} food_name="Oreo Shake" description="Taste the pure bliss of our Strawberry Milkshake—a delightful symphony of sweetness." />
-                    <SpecificMenu price='Ksh.100' image={Mango} food_name="Mango Juice" description="Taste the pure bliss of our Strawberry Milkshake—a delightful symphony of sweetness." />
-                    <SpecificMenu price='Ksh.100' image={Passion} food_name="Passion Juice" description="Taste the pure bliss of our Strawberry Milkshake—a delightful symphony of sweetness." />
+            <SpecificMenu price='Ksh.150' image={Strawberry} food_name="Strawberry" description="Taste the pure bliss of our Strawberry Milkshake—a delightful symphony of sweetness." />
+            <SpecificMenu price='Ksh.150' image={Vanilla} food_name="Vanilla Shake" description="Indulge in the creamy goodness of our Vanilla Shake. A classic treat for your taste" />
+            <SpecificMenu price='Ksh.170' image={Oreo} food_name="Oreo Shake" description="Satisfy your sweet cravings with our Oreo Shake, a rich blend of chocolatey cookies and velvety smoothness." />
+            <SpecificMenu price='Ksh.100' image={Mango} food_name="Mango Juice" description="Experience the tropical delight of our Mango Juice, refreshing burst of natural sweetness." />
+            <SpecificMenu price='Ksh.100' image={Passion} food_name="Passion Juice" description="Quench your thirst with our Passion Juice, vibrant fusion of exotic flavors that will tantalize your palate." />
           </div>
 
         </div>
