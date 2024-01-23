@@ -127,7 +127,7 @@ return (
                     placeholder='Enter Phone Number (Saf)' min="0" />
                 {/* pick number */}
                 <div className="pay-btn">
-                    <button className='pay-btn'>Pay</button>
+                    <button className='pay-btn'>Order</button>
                 </div>
 
             </div>
