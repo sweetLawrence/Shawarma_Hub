@@ -132,6 +132,7 @@
 }
 .orderpage h3 {
   font-size: 1.2em;
+  text-align: left;
 }
 .orderpage .payment input {
   outline: none;
@@ -140,11 +141,11 @@
   padding: 0.5em;
   height: 50px;
   background: none;
-  font-weight: 600;
-  font-size: 0.8em;
+  font-weight: 200;
+  font-size: 0.2em;
   margin-left: 0.5em;
   width: 100%;
-  font-size: 1.2em;
+  font-size: 1em!important;
   margin: 0.5em auto;
 }
 .orderpage .payment input::placeholder {
@@ -162,6 +163,11 @@
   margin-top: 1em;
   margin-bottom: 1.2em;
   border-radius: 50px;
+  transition: all .5s;
+}
+.orderpage .payment .paybtnx:hover {
+  scale: .95;
+  box-shadow: 10px 15px 20px rgb(131, 128, 128);
 }
 
 @media screen and (min-width: 468px) {

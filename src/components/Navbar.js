@@ -74,6 +74,7 @@ const Navbar = ({ toggleMobileNav }) => {
                     <ul>
                         {Navdata.map((item, index) => (
                             <Link
+                                key={index}
                                 onClick={() => handleItemClick(item)}
                                 style={{
                                     color: activeItem === item.toLowerCase() ? '#d4af7b' : (scrollPosition > 300 ? '#000' : '#fff'),
