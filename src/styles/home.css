@@ -1,5 +1,5 @@
 .home {
-  background: rgb(177, 228, 245);
+
   height: 100vh;
   /* overflow-x: hidden; */
   overflow: hidden;
@@ -9,6 +9,7 @@
   position: absolute;
   object-fit: cover;
   /* overflow-x: hidden; */
+  background: rgb(229, 243, 248);
 }
 .bg img {
   width: 100%;
