@@ -23,7 +23,7 @@ const Footer = () => {
       </div>
       <div className="footer-bottom">
         <p>&copy; {new Date().getFullYear()} Shawarma Hub. All Rights Reserved.</p>
-        <p style={"marginTop:.3em"}>Powered by Pawtech Labs</p>
+        {/* <p style={"marginTop:.3em"}>Powered by Pawtech Labs</p> */}
       </div>
     </footer>
   );
