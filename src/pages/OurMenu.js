@@ -29,7 +29,7 @@ const OurMenu = () => {
                     <SpecificMenu price='Ksh.80' image={Fries} food_name="Fries" description="Crunch into perfection with our golden Fries—irresistibly crispy and seasoned to perfection!" />
                     <SpecificMenu price='Ksh.150' image={Shawarma} food_name="Shawarma" description="Savor the delicious flavor of our Shawarma, a taste sensation that delights every palate." />
                     <SpecificMenu price='Ksh.250' image={Mkorogo} food_name="Mkorogo" description="Our yummy Mkorogo showcases kitchen artistry, a perfect gastronomic reflection." />
-                    <SpecificMenu price='Ksh.170' image={Breast} food_name="Chicken Breast" description="Savor the lean and tender perfection of our Chicken Breast—a protein-packed choice for a wholesome meal." />
+                    {/* <SpecificMenu price='Ksh.170' image={Breast} food_name="Chicken Breast" description="Savor the lean and tender perfection of our Chicken Breast—a protein-packed choice for a wholesome meal." /> */}
                 </div>
                 <div className="drinks">
                     <h2 className='foodTitle drinkTitle'>Drinks</h2>
