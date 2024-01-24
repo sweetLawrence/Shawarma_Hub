@@ -9,7 +9,8 @@
   position: absolute;
   object-fit: cover;
   /* overflow-x: hidden; */
-  background: rgb(229, 243, 248);
+  /* background: rgb(232, 232, 232); */
+  
 }
 .bg img {
   width: 100%;
