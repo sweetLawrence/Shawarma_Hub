@@ -163,7 +163,7 @@ const OrderPage = () => {
                         placeholder='Enter Phone Number' min="0" />
                     {/* pick number */}
                     <div className="pay-btn paybtnx">
-                        <button type="submit" className='pay-btn '> {loading ? <Spinner /> : 'Upload'}</button>
+                        <button type="submit" className='pay-btn '> {loading ? <Spinner /> : 'Order'}</button>
                     </div>
 
                 </div>
