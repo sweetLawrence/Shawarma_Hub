@@ -10,6 +10,7 @@ const Footer = () => {
           <p>62000–00200 Juja</p>
           <p>Email: hubshawarma.ke@gmail.com</p>
           <p>Phone: +254 112079785</p>
+          <p>  +254727976635</p>
         </div>
         <div className="footer-section">
           <h3>Opening Hours</h3>
